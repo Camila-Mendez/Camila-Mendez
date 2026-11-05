@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="36" viewBox="0 0 150 36">
+<rect x="1" y="1" width="148" height="34" rx="10" fill="#0b1526" stroke="#ffd166" stroke-width="1.5"/>
+<circle cx="26" cy="18" r="9" fill="none" stroke="#ffd166" stroke-width="2"/><path d="M17 18 H35 M26 9 C21 13 21 23 26 27 M26 9 C31 13 31 23 26 27" fill="none" stroke="#ffd166" stroke-width="1.6"/>
+<text x="48" y="23" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e6f1ff">Portafolio</text>
+</svg>
