@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/camila-isabel-mendez-reyes-b054222b4"><img src="https://img.shields.io/badge/LinkedIn-0b1526?style=for-the-badge&logo=linkedin&logoColor=2ec4b6" alt="LinkedIn"></a>
-  <a href="https://chemcamicodes.carrd.co/"><img src="https://img.shields.io/badge/Portafolio-0b1526?style=for-the-badge&logo=carrd&logoColor=ffd166" alt="Portafolio"></a>
-  <img src="https://komarev.com/ghpvc/?username=Camila-Mendez&style=for-the-badge&color=0b1526&label=VISITAS" alt="Visitas al perfil">
+  <a href="https://www.linkedin.com/in/camila-isabel-mendez-reyes-b054222b4"><img src="assets/linkedin.svg" alt="LinkedIn"></a>
+  <a href="https://chemcamicodes.carrd.co/"><img src="assets/portafolio.svg" alt="Portafolio"></a>
+  <img src="https://komarev.com/ghpvc/?username=Camila-Mendez&style=flat-square&color=2ec4b6&label=visitas" alt="Visitas al perfil">
 </p>
 
 ### ⚗️ Fórmula de quién soy
