@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330">
+<defs><style>
+.t{font-family:'Segoe UI',Helvetica,Arial,sans-serif} .m{font-family:Consolas,'Courier New',monospace}
+.tile{animation:pop .5s ease both}
+@keyframes pop{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+</style></defs>
+<rect width="900" height="330" rx="22" fill="#0b1526"/>
+<text x="22" y="40" class="m" font-size="15" fill="#9fb3c8">// mi tabla periódica</text>
+<g class="tile" style="animation-delay:0.00s">
+<rect x="22" y="62" width="160" height="112" rx="12" fill="#2ec4b6" fill-opacity="0.1" stroke="#2ec4b6" stroke-width="2"/>
+<text x="34" y="84" class="m" font-size="13" fill="#2ec4b6">1</text>
+<text x="102.0" y="126" class="t" font-size="38" font-weight="800" fill="#2ec4b6" text-anchor="middle">Py</text>
+<text x="102.0" y="148" class="t" font-size="13" fill="#e6f1ff" text-anchor="middle">Python</text>
+<text x="102.0" y="165" class="t" font-size="11" fill="#9fb3c8" text-anchor="middle">Lenguaje</text>
+</g>
+<g class="tile" style="animation-delay:0.12s">
+<rect x="196" y="62" width="160" height="112" rx="12" fill="#2ec4b6" fill-opacity="0.1" stroke="#2ec4b6" stroke-width="2"/>
+<text x="208" y="84" class="m" font-size="13" fill="#2ec4b6">2</text>
+<text x="276.0" y="126" class="t" font-size="38" font-weight="800" fill="#2ec4b6" text-anchor="middle">Jv</text>
+<text x="276.0" y="148" class="t" font-size="13" fill="#e6f1ff" text-anchor="middle">Java</text>
+<text x="276.0" y="165" class="t" font-size="11" fill="#9fb3c8" text-anchor="middle">Lenguaje</text>
+</g>
+<g class="tile" style="animation-delay:0.24s">
+<rect x="370" y="62" width="160" height="112" rx="12" fill="#ffd166" fill-opacity="0.1" stroke="#ffd166" stroke-width="2"/>
+<text x="382" y="84" class="m" font-size="13" fill="#ffd166">3</text>
+<text x="450.0" y="126" class="t" font-size="38" font-weight="800" fill="#ffd166" text-anchor="middle">Sq</text>
+<text x="450.0" y="148" class="t" font-size="13" fill="#e6f1ff" text-anchor="middle">SQL</text>
+<text x="450.0" y="165" class="t" font-size="11" fill="#9fb3c8" text-anchor="middle">Datos</text>
+</g>
+<g class="tile" style="animation-delay:0.36s">
+<rect x="544" y="62" width="160" height="112" rx="12" fill="#ffd166" fill-opacity="0.1" stroke="#ffd166" stroke-width="2"/>
+<text x="556" y="84" class="m" font-size="13" fill="#ffd166">4</text>
+<text x="624.0" y="126" class="t" font-size="38" font-weight="800" fill="#ffd166" text-anchor="middle">Pb</text>
+<text x="624.0" y="148" class="t" font-size="13" fill="#e6f1ff" text-anchor="middle">Power BI</text>
+<text x="624.0" y="165" class="t" font-size="11" fill="#9fb3c8" text-anchor="middle">Datos</text>
+</g>
+<g class="tile" style="animation-delay:0.48s">
+<rect x="718" y="62" width="160" height="112" rx="12" fill="#ff8fa3" fill-opacity="0.1" stroke="#ff8fa3" stroke-width="2"/>
+<text x="730" y="84" class="m" font-size="13" fill="#ff8fa3">5</text>
+<text x="798.0" y="126" class="t" font-size="38" font-weight="800" fill="#ff8fa3" text-anchor="middle">Fl</text>
+<text x="798.0" y="148" class="t" font-size="13" fill="#e6f1ff" text-anchor="middle">Flask</text>
+<text x="798.0" y="165" class="t" font-size="11" fill="#9fb3c8" text-anchor="middle">Web</text>
+</g>
+<g class="tile" style="animation-delay:0.60s">
+<rect x="22" y="188" width="160" height="112" rx="12" fill="#ff8fa3" fill-opacity="0.1" stroke="#ff8fa3" stroke-width="2"/>
+<text x="34" y="210" class="m" font-size="13" fill="#ff8fa3">6</text>
+<text x="102.0" y="252" class="t" font-size="38" font-weight="800" fill="#ff8fa3" text-anchor="middle">Ht</text>
+<text x="102.0" y="274" class="t" font-size="13" fill="#e6f1ff" text-anchor="middle">HTML</text>
+<text x="102.0" y="291" class="t" font-size="11" fill="#9fb3c8" text-anchor="middle">Web</text>
+</g>
+<g class="tile" style="animation-delay:0.72s">
+<rect x="196" y="188" width="160" height="112" rx="12" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-width="2"/>
+<text x="208" y="210" class="m" font-size="13" fill="#a78bfa">7</text>
+<text x="276.0" y="252" class="t" font-size="38" font-weight="800" fill="#a78bfa" text-anchor="middle">Lx</text>
+<text x="276.0" y="274" class="t" font-size="13" fill="#e6f1ff" text-anchor="middle">Linux</text>
+<text x="276.0" y="291" class="t" font-size="11" fill="#9fb3c8" text-anchor="middle">Sistemas</text>
+</g>
+<g class="tile" style="animation-delay:0.84s">
+<rect x="370" y="188" width="160" height="112" rx="12" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-width="2"/>
+<text x="382" y="210" class="m" font-size="13" fill="#a78bfa">8</text>
+<text x="450.0" y="252" class="t" font-size="38" font-weight="800" fill="#a78bfa" text-anchor="middle">Az</text>
+<text x="450.0" y="274" class="t" font-size="13" fill="#e6f1ff" text-anchor="middle">Azure DevOps</text>
+<text x="450.0" y="291" class="t" font-size="11" fill="#9fb3c8" text-anchor="middle">Herramientas</text>
+</g>
+<g class="tile" style="animation-delay:0.96s">
+<rect x="544" y="188" width="160" height="112" rx="12" fill="#7ef0e4" fill-opacity="0.1" stroke="#7ef0e4" stroke-width="2"/>
+<text x="556" y="210" class="m" font-size="13" fill="#7ef0e4">9</text>
+<text x="624.0" y="252" class="t" font-size="38" font-weight="800" fill="#7ef0e4" text-anchor="middle">Sc</text>
+<text x="624.0" y="274" class="t" font-size="13" fill="#e6f1ff" text-anchor="middle">Scrum</text>
+<text x="624.0" y="291" class="t" font-size="11" fill="#9fb3c8" text-anchor="middle">Ágil · SFC</text>
+</g>
+<g class="tile" style="animation-delay:1.08s">
+<rect x="718" y="188" width="160" height="112" rx="12" fill="#7ef0e4" fill-opacity="0.1" stroke="#7ef0e4" stroke-width="2"/>
+<text x="730" y="210" class="m" font-size="13" fill="#7ef0e4">10</text>
+<text x="798.0" y="252" class="t" font-size="38" font-weight="800" fill="#7ef0e4" text-anchor="middle">Ch</text>
+<text x="798.0" y="274" class="t" font-size="13" fill="#e6f1ff" text-anchor="middle">Química</text>
+<text x="798.0" y="291" class="t" font-size="11" fill="#9fb3c8" text-anchor="middle">Procesos</text>
+</g>
+</svg>

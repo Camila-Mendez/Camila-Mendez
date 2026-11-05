@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1526"/>
+      <stop offset="1" stop-color="#16243f"/>
+    </linearGradient>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2ec4b6"/>
+      <stop offset="1" stop-color="#0e7c86"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ef0e4"/>
+      <stop offset="0.5" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#ff8fa3"/>
+    </linearGradient>
+    <clipPath id="flask">
+      <path d="M725 70 h40 v55 l45 85 a14 14 0 0 1 -12 20 h-106 a14 14 0 0 1 -12 -20 l45 -85 z"/>
+    </clipPath>
+    <style>
+      .t { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .m { font-family: Consolas, 'Courier New', monospace; }
+      .float { animation: float 6s ease-in-out infinite; }
+      .float2 { animation: float 7s ease-in-out infinite reverse; }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
+      .spin { transform-origin: 120px 140px; animation: spin 40s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg) } }
+      .bub { animation: rise 3.2s ease-in infinite; opacity: 0; }
+      .b2 { animation-delay: .8s } .b3 { animation-delay: 1.6s } .b4 { animation-delay: 2.4s }
+      @keyframes rise { 0% { transform: translateY(0); opacity: 0 } 15% { opacity: .9 } 100% { transform: translateY(-95px); opacity: 0 } }
+      .wave { animation: wave 4s ease-in-out infinite; }
+      @keyframes wave { 0%,100% { transform: translateX(0) } 50% { transform: translateX(-30px) } }
+      .type { animation: type 3.5s steps(40) .6s both; }
+      @keyframes type { from { clip-path: inset(0 100% 0 0) } to { clip-path: inset(0 0 0 0) } }
+      .caret { animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+      .fade { animation: fade 1s ease 3.8s both; }
+      @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+    </style>
+  </defs>
+
+  <rect width="900" height="280" rx="22" fill="url(#bg)"/>
+
+  <!-- grilla tenue -->
+  <g stroke="#ffffff" stroke-opacity="0.04">
+    <path d="M0 70 H900 M0 140 H900 M0 210 H900 M150 0 V280 M300 0 V280 M450 0 V280 M600 0 V280 M750 0 V280"/>
+  </g>
+
+  <!-- molécula hexagonal (benceno) girando -->
+  <g class="spin" opacity="0.55">
+    <polygon points="120,92 162,116 162,164 120,188 78,164 78,116" fill="none" stroke="#2ec4b6" stroke-width="3"/>
+    <circle cx="120" cy="140" r="26" fill="none" stroke="#2ec4b6" stroke-width="2" stroke-dasharray="6 6"/>
+    <g fill="#7ef0e4">
+      <circle cx="120" cy="92" r="6"/><circle cx="162" cy="116" r="6"/><circle cx="162" cy="164" r="6"/>
+      <circle cx="120" cy="188" r="6"/><circle cx="78" cy="164" r="6"/><circle cx="78" cy="116" r="6"/>
+    </g>
+    <g stroke="#2ec4b6" stroke-width="2"><path d="M120 92 V62 M162 116 l26 -15 M78 164 l-26 15"/></g>
+    <g fill="#ff8fa3"><circle cx="120" cy="58" r="5"/><circle cx="192" cy="99" r="5"/><circle cx="48" cy="181" r="5"/></g>
+  </g>
+
+  <!-- átomos flotando -->
+  <g class="float" opacity="0.8">
+    <circle cx="610" cy="48" r="5" fill="#ffd166"/>
+    <ellipse cx="610" cy="48" rx="20" ry="8" fill="none" stroke="#ffd166" stroke-opacity=".6"/>
+    <ellipse cx="610" cy="48" rx="20" ry="8" fill="none" stroke="#ffd166" stroke-opacity=".6" transform="rotate(60 610 48)"/>
+    <ellipse cx="610" cy="48" rx="20" ry="8" fill="none" stroke="#ffd166" stroke-opacity=".6" transform="rotate(-60 610 48)"/>
+  </g>
+  <g class="float2" opacity="0.5">
+    <text x="640" y="250" class="m" font-size="14" fill="#7ef0e4">&lt;/&gt;</text>
+    <text x="230" y="250" class="m" font-size="14" fill="#ff8fa3">H₂O</text>
+    <text x="250" y="45" class="m" font-size="13" fill="#ffd166">{ }</text>
+  </g>
+
+  <!-- texto -->
+  <text x="235" y="118" class="t" font-size="46" font-weight="800" fill="url(#title)">Camila Méndez</text>
+  <g class="type">
+    <text x="237" y="156" class="m" font-size="17" fill="#cfe9f5">&gt; química + código = soluciones_reales()</text>
+  </g>
+  <rect class="caret" x="237" y="164" width="11" height="3" fill="#2ec4b6"/>
+  <g class="fade">
+    <text x="237" y="198" class="t" font-size="15" fill="#9fb3c8">Ing. Química Industrial  ·  Ing. Informática  ·  ULACIT</text>
+    <text x="237" y="222" class="t" font-size="15" fill="#9fb3c8">Costa Rica  ·  ES · EN · 日本語</text>
+  </g>
+
+  <!-- matraz con burbujas -->
+  <g clip-path="url(#flask)">
+    <g class="wave"><path d="M640 150 q20 -10 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 V260 H640 z" fill="url(#liquid)"/></g>
+    <circle class="bub" cx="735" cy="215" r="4" fill="#bff7f0"/>
+    <circle class="bub b2" cx="752" cy="220" r="3" fill="#bff7f0"/>
+    <circle class="bub b3" cx="722" cy="222" r="3.5" fill="#bff7f0"/>
+    <circle class="bub b4" cx="760" cy="212" r="2.5" fill="#bff7f0"/>
+  </g>
+  <path d="M725 70 h40 v55 l45 85 a14 14 0 0 1 -12 20 h-106 a14 14 0 0 1 -12 -20 l45 -85 z" fill="none" stroke="#e6f1ff" stroke-opacity="0.85" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="718" y="62" width="54" height="10" rx="4" fill="#e6f1ff" fill-opacity="0.85"/>
+</svg>

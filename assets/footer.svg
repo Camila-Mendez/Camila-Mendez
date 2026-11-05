@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="130" viewBox="0 0 900 130">
+  <defs>
+    <linearGradient id="w" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ec4b6"/>
+      <stop offset="0.5" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#ff8fa3"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="900" height="130" rx="22"/></clipPath>
+    <style>
+      .t { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .w1 { animation: mv 7s ease-in-out infinite; }
+      .w2 { animation: mv 9s ease-in-out infinite reverse; }
+      @keyframes mv { 0%,100% { transform: translateX(0) } 50% { transform: translateX(-60px) } }
+    </style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="900" height="130" fill="#0b1526"/>
+    <path class="w1" d="M0 95 q60 -22 120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 t120 0 V130 H0 z" fill="url(#w)" opacity="0.35"/>
+    <path class="w2" d="M0 105 q75 -18 150 0 t150 0 t150 0 t150 0 t150 0 t150 0 t150 0 V130 H0 z" fill="url(#w)" opacity="0.6"/>
+  </g>
+  <text x="450" y="50" class="t" font-size="22" font-weight="700" fill="#e6f1ff" text-anchor="middle">Gracias por pasar por el laboratorio</text>
+  <text x="450" y="76" class="t" font-size="14" fill="#9fb3c8" text-anchor="middle">Thanks for visiting  ·  ありがとうございます</text>
+</svg>
